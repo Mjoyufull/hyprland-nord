@@ -1,2 +1,3 @@
 # hyprland-nord
-![1723270732_grim](https://github.com/user-attachments/assets/baa164da-d962-4df0-8fee-37b510f08aea)
+![image](https://github.com/user-attachments/assets/91771555-9197-4e72-a75f-ab742120f2f2)
+
