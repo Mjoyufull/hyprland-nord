@@ -75,6 +75,7 @@ Make sure you have the following applications installed, as needed:
 ### Step 5: Custom Scripts and Keybinds
 
 - **Wallpaper Slideshow**: A custom script using `swww-deamon` cycles through a directory of images, applying the Nord color scheme.
+- **Nord wallpapers** : my [repo](https://github.com/Mjoyufull/Nord-wallpapers) for nord themed walls this config uses the norded folders look into the script for more info
 - **Screenshot Script**: A custom script using Hyprpicker allows drawing an arrow on screenshots, opening them in an image editor automatically.
 - **Dunst Notifications**: Dunst is configured to display notifications in the Nord theme. Screenshots trigger a custom notification, and there's a bind to open recent notifications.
 - **Auto-Tiling and Custom Binds**: I’ve set up keybinds for automatic tiling of applications like Discord, Brave Browser, and Steam in specific workstations.
