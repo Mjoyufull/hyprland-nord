@@ -1,0 +1,96 @@
+/* -----------------------------------------------------------------------------
+ * Base styles
+ * -------------------------------------------------------------------------- */
+
+/* Reset all styles */
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* The whole bar */
+#waybar {
+  background: rgba(46, 52, 64, 0.8); /* Nord 0 (Polar Night) with transparency */
+  color: #D8DEE9; /* Nord 1 (Snow Storm) */
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 15px;
+}
+
+/* Each module */
+#battery,
+#clock,
+#cpu,
+#custom-keyboard-layout,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#temperature,
+#tray,
+#language,
+#bluetooth,
+#mic,
+#sound {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 3px; /* Less rounded corners */
+  background-color: rgba(68, 76, 88, 0.8); /* Lighter Nord 2 (Frost) with transparency */
+}
+
+/* Module-specific styles */
+#clock {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#network {
+  background-color: rgba(74, 95, 112, 0.8); /* Lighter Nord 4 (Blue) */
+}
+
+#network.disconnected {
+  color: #BF616A; /* Nord 11 (Red) */
+}
+
+#pulseaudio {
+  background-color: rgba(64, 74, 87, 0.8); /* Lighter Nord 3 (Snow Storm) */
+}
+
+#pulseaudio.muted {
+  /* No additional styles */
+}
+
+#tray {
+  margin-right: 10px;
+}
+
+#window {
+  font-weight: bold;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+  background: inherit;
+  box-shadow: inherit;
+}
+
+#workspaces button {
+  color: #D8DEE9; /* Nord 1 (Snow Storm) */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#workspaces button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.active {
+  border-color: #A3BE8C; /* Nord 6 (Frost - light green) */
+  background-color: #4C566A; /* Nord 2 (Frost) */
+}
+
+
